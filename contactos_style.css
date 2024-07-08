@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(
+        #6194ecdc,
+        rgb(247, 247, 247)
+    ) no-repeat;
+    color: rgb(252, 249, 253);
+    background-image: url(imagenes/3418448.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.titulos{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 85px;
+    color: rgba(232, 232, 232, 0.968);
+}
+
+.col{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: 7px;
+}
+
+.img-left, .img-right {
+    max-width: 70%;
+    height: auto;
+}
+
+.img-left {
+    margin-right: 10px; 
+}
+
+.img-right {
+    margin-left: 10px; 
+}

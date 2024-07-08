@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(
+        #6194ecdc,
+        rgb(247, 247, 247)
+    ) no-repeat;
+    color: rgb(78, 24, 107);
+    background-image: url(imagenes/3418448.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center; 
+    overflow-x: hidden; 
+}
+
+.titulos{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 85px;
+    color: rgba(232, 232, 232, 0.968);
+}
+
+.imgt1{
+    border-radius: 50px;
+}
+
+.imgt2{
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 50px;
+}
+
+.textos{
+    padding: 10px 20px; 
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+.textos1{
+    padding-left: 100px;
+}
+
+.parrafo{
+    margin: 0 150px 150px;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.633);
+    background-color: rgb(38, 6, 100);
+    border-radius: 1em;
+    box-shadow: 5px 5px 25px 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+.texto1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
