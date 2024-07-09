@@ -10,8 +10,8 @@ body {
 
 .img1, .img2, .img3, .img4 {
     border-radius: 8em 0 8rem 0;
-    box-shadow: 0 1em 1em 0 rgba(101, 100, 102, 0.921);
-    background-color: rgba(245, 246, 245, 0.864);
+    box-shadow: 0 1em 1em 0 rgba(89, 87, 98, 0.701);
+    background-color: rgba(169, 236, 140, 0.864);
 }
 
 .custom-rounded {
