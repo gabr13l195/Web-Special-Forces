@@ -1,75 +1,76 @@
-body{
-    background: linear-gradient(
-        #6194ecdc,
-        rgb(247, 247, 247)
-    ) no-repeat;
+body {
+    background: linear-gradient(#6194ecdc, rgb(247, 247, 247)) no-repeat;
     color: rgb(78, 24, 107);
     background-image: url(imagenes/3418448.jpg);
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-position: center; 
+    background-attachment: fixed;
+    background-position: center;
 }
 
-.img1, .img2, .img3, .img4{
+.img1, .img2, .img3, .img4 {
     border-radius: 8em 0 8rem 0;
-    box-shadow: 0 1em 1em 0;
-    background-color:rgba(169, 236, 140, 0.864),;
+    box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(169, 236, 140, 0.864);
 }
 
 .custom-rounded {
     border-radius: 5em;
 }
 
-.footer{
+.footer {
     margin: 2em 0 0 1em;
 }
 
-.titulos{
+.titulos {
     font-family: "Bona Nova SC", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 85px;
+    font-size: 2.5rem;
     color: rgba(232, 232, 232, 0.968);
 }
 
-.mensaje{
+.mensaje {
     font-family: "Bona Nova SC", serif;
     font-weight: 400;
     font-style: italic;
 }
 
-.mision{
+.mision {
     font-family: "Bona Nova SC", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
+    font-size: 2rem;
 }
 
-.textmision{
+.textmision {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
-.carrousel{
+.carrousel {
     font-family: "Anton SC", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 2rem;
     letter-spacing: 3px;
 }
 
 .img-left, .img-right {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
 }
 
-.img-left {
-    margin-right: 10px; 
-}
-
-.img-right {
-    margin-left: 10px; 
+@media (min-width: 768px) {
+    .titulos {
+        font-size: 4rem;
+    }
+    .mision {
+        font-size: 3rem;
+    }
+    .carrousel {
+        font-size: 2.5rem;
+    }
 }
