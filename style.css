@@ -10,7 +10,7 @@ body {
 
 .img1, .img2, .img3, .img4 {
     border-radius: 8em 0 8rem 0;
-    box-shadow: 0 1em 1em 0 rgba(89, 87, 98, 0.701);
+    box-shadow: 0 1em 1em 0 rgba(75, 73, 86, 0.701);
     background-color: rgba(169, 236, 140, 0.864);
 }
 
@@ -26,8 +26,10 @@ body {
     font-family: "Bona Nova SC", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: rgba(232, 232, 232, 0.968);
+    text-align: center;
+    white-space: nowrap;
 }
 
 .mensaje {
