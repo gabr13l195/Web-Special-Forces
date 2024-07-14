@@ -8,7 +8,10 @@ body {
     background-position: center;
 }
 
-.img1, .img2, .img3, .img4 {
+.img1,
+.img2,
+.img3,
+.img4 {
     border-radius: 8em 0 8rem 0;
     box-shadow: 0 1em 1em 0 rgba(75, 73, 86, 0.701);
     background-color: rgba(169, 236, 140, 0.864);
@@ -18,18 +21,56 @@ body {
     border-radius: 5em;
 }
 
-.footer {
-    margin: 2em 0 0 1em;
-}
 
 .titulos {
     font-family: "Bona Nova SC", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 4rem;
     color: rgba(232, 232, 232, 0.968);
     text-align: center;
     white-space: nowrap;
+}
+
+.imglogo1,
+.imglogo2,
+.imglogo1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.d-md-none {
+    display: contents;
+}
+
+@media (max-width: 992px) {
+    .titulos {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulos {
+        font-size: 3em;
+    }
+
+    .d-md-none {
+        display: block;
+    }
+
+    .d-none.d-md-block {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .titulos {
+        font-size: 10vw;
+    }
+
+    .img-bottom {
+        max-height: 100px;
+    }
 }
 
 .mensaje {
@@ -60,19 +101,22 @@ body {
     letter-spacing: 3px;
 }
 
-.img-left, .img-right {
+.img-left,
+.img-right {
     max-width: 100%;
     height: auto;
 }
 
 @media (min-width: 768px) {
-    .titulos {
-        font-size: 4rem;
-    }
     .mision {
         font-size: 3rem;
     }
+
     .carrousel {
         font-size: 2.5rem;
     }
+}
+
+.footer {
+    margin: 2em 0 0 1em;
 }
