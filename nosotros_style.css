@@ -11,21 +11,62 @@ body{
     background-position: center; 
 }
 
-.titulos{
+/* Desde aqui va el titulo */
+.titulos {
     font-family: "Bona Nova SC", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 85px;
+    font-size: 5rem;
     color: rgba(232, 232, 232, 0.968);
+    text-align: center;
+    white-space: nowrap;
 }
+
+.imglogo1, .imglogo2, .imglogo1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.d-md-none {
+    display: contents;
+}
+
+@media (max-width: 992px) {
+    .titulos {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulos {
+        font-size: 3em;
+    }
+    .d-md-none {
+        display: block;
+    }
+    .d-none.d-md-block {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .titulos {
+        font-size: 10vw;
+    }
+    .img-bottom {
+        max-height: 100px;
+    }
+}
+
+/* Aquí finaliza el título */
 
 .imgn1{
     border-radius: 5em;
 }
 
 .parrafo{
-    margin: 0 150px 150px;
-    padding: 20px;
+    margin: 0 100px 100px;
+    padding: 15px;
     color: rgba(255, 255, 255, 0.633);
     background-color: rgb(38, 6, 100);
     border-radius: 1em;
@@ -37,6 +78,13 @@ body{
     "wdth" 100,
     "YTLC" 500;
     font-size: 20px;
+}
+
+@media (max-width: 576px) {
+    .parrafo {
+        font-size: 10px;
+        margin: 2em;
+    }
 }
 
 .img-left, .img-right {
