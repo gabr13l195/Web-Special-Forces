@@ -11,14 +11,51 @@ body{
     background-position: center; 
 }
 
-.titulos{
+.titulos {
     font-family: "Bona Nova SC", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 85px;
+    font-size: 4rem;
     color: rgba(232, 232, 232, 0.968);
+    text-align: center;
+    white-space: nowrap;
 }
 
+.imglogo1, .imglogo2, .imglogo1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.d-md-none {
+    display: contents;
+}
+
+@media (max-width: 992px) {
+    .titulos {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulos {
+        font-size: 3em;
+    }
+    .d-md-none {
+        display: block;
+    }
+    .d-none.d-md-block {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .titulos {
+        font-size: 10vw;
+    }
+    .img-bottom {
+        max-height: 100px;
+    }
+}
 .col{
     font-family: "Anton SC", sans-serif;
     font-weight: 400;
