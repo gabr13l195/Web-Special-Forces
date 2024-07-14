@@ -1,15 +1,13 @@
-body{
-    background: linear-gradient(
-        #6194ecdc,
-        rgb(247, 247, 247)
-    ) no-repeat;
+body {
+    background: linear-gradient(#6194ecdc,
+            rgb(247, 247, 247)) no-repeat;
     color: rgb(78, 24, 107);
     background-image: url(imagenes/3418448.jpg);
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-position: center; 
-    overflow-x: hidden; 
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
 }
 
 /* Desde aqui va el encabezado de ENTRENAMIENTO*/
@@ -23,7 +21,9 @@ body{
     white-space: nowrap;
 }
 
-.imglogo1, .imglogo2, .imglogo1 {
+.imglogo1,
+.imglogo2,
+.imglogo1 {
     max-width: 100%;
     height: auto;
 }
@@ -42,9 +42,11 @@ body{
     .titulos {
         font-size: 3em;
     }
+
     .d-md-none {
         display: block;
     }
+
     .d-none.d-md-block {
         display: none;
     }
@@ -54,6 +56,7 @@ body{
     .titulos {
         font-size: 10vw;
     }
+
     .img-bottom {
         max-height: 100px;
     }
@@ -61,23 +64,22 @@ body{
 
 /* Hasta aqui va el encabezado de ENTRENAMIENTO*/
 
-.imgt1{
+.imgt1 {
     border-radius: 50px;
 }
 
-.imgt2{
-    margin-left: auto; 
-    margin-right: auto; 
+.imgt2 {
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50px;
 }
 
-.textos{
-    padding: 10px 20px; 
+.textos {
+    padding: 10px 20px;
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-    "wdth" 100,
-    "YTLC" 500;
+        "wdth" 100,
+        "YTLC" 500;
 }
-
